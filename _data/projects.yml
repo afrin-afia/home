@@ -2,11 +2,11 @@
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   link: https://github.com/afrin-afia/Decision-Tree-Learning-Cancer-Diagnosis-/tree/master
   description: Decision tree learner for cancer diagnosis.
-  - name: Mechanical Hand Simulation
+- name: Mechanical Hand Simulation
   link: https://github.com/afrin-afia/Mechanical-Hand-Simulation--OPENGL/tree/master
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   description: Simulation of a mechanical hand using OpenGL library. 
-  - name: FloodIT
+- name: FloodIT
   link: https://github.com/afrin-afia/FloodIT
   image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
   description: FloodIt solver: A* search
