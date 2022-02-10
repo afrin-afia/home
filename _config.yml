@@ -7,9 +7,9 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Hello!
+title: Welcome! | স্বাগতম!
 # Description of the Site
-description: Welcome! | স্বাগতম!
+description: Hi! I'm Afia. I wish I could write more about myself, but I don't want to ~_~
 # URL of Image of the Site
 site-image: /home/assets/images/blossom.jpg
 # Keywords of the Site
@@ -24,28 +24,28 @@ heroimage: /home/assets/images/blossom.jpg
 # If you don't want to use any icon, you can leave them blank.
 email: afia.afrin92@gmail.com
 facebook_username: meghla1011
-twitter_username: /
+twitter_username: 
 instagram_username: afiafrin_
 linkedin_username: afia-afrin-251138138/
 github_username:  afrin-afia
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
-google-analytics: /
+google-analytics: 
 
 # Disqus
-disqus-shortname: /
+disqus-shortname: 
 
 # Name of the Author
 author-name: Afia Afrin
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /home/assets/images/aa.jpg
 # 60 Words About the Author
-author-about: Hi! I'm Afia. 
+author-about: Hi! I'm Afia. I am a first-year M.Sc. student at the University of Alberta. I earned a Bachelor of Science in Computer Science and Engineering in 2017 from Bangladesh University of Engineering and Technology.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/afrin-afia #https://github.com/thedevslot
 
