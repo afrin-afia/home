@@ -1,2 +1,4 @@
+---
 title: publications
 layout: publications
+---
