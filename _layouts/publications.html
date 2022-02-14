@@ -12,15 +12,11 @@ layout: compress
 
     <section class="hero is-fullheight" id="blog">
         <div class="hero-body">
-            <div class="container">
-                {% include blogpage-heading.html %}
-            </div>
+            
         </div>
         <div id="results-container"></div>
         <!--List of Publications-->
-        {% for post in site.pubs %}
-            {% include pub-cards.html %}
-        {% endfor %}
+         {% include pub-card.html %}
         </div>
     </section>
     <br>
