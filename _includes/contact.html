@@ -1,28 +1,7 @@
 <head>
     {% include head.html %}
     <style>
-        /* (A) "SET" THE TIMELINE CONTAINER */
-        .vtl {
-          /* (A1) RELATIVE POSITION NECESSARY TO PROPERLY POSITION TIMELINE LATER */
-          position: relative;
-          /* (A2) RESERVE MORE SPACE TO THE LEFT FOR THE TIMELINE */
-          padding: 10px 10px 10px 30px;
-          /* (A3) OPTIONAL WIDTH RESTRICTION */
-          max-width: 700px;
-        }
-
-        /* (B) DRAW TIMELINE USING ::BEFORE */
-        .vtl::before {
-          /* (B1) DRAW THE TIMELINE (bar)*/
-          content: '';
-          width: 5px;
-          background-color: #900C3F;
-          /* (B2) POSITION IT TO THE LEFT */
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 100px;
-        }
+        
 
         /* (C) STYLES FOR THE EVENTS */
         div.event {
@@ -40,18 +19,7 @@
           /*max-width: 800px;*/
         }
 
-        /* (F) ADD A CIRCLE ON THE TIMELINE TO INDICATE AN EVENT */
-        div.event::after {
-          content: '';
-          background: #fff;
-          border: 4px solid #900C3F;
-          width: 16px;
-          height: 16px;
-          border-radius: 50%;
-          position: absolute;
-          top: 20%;
-          left: 70px;
-        }
+       
     </style>
 </head>
 
@@ -71,7 +39,7 @@
     </section> 
         
     <section id="blog">
-        <div class="vtl">
+       
             <div class="event">
 
                      <div class="columns has-text-centered" id="blog-card">
@@ -87,9 +55,9 @@
                                 <p> <a href="https://www.ualberta.ca/index.html" style="color:  #004d1a ;">University of Alberta</a></p>
                         </div>
                     </div> 
-            </div>
+            <!--/div-->
             
-            <div class="event">
+            <!--div class="event"-->
                     <div class="columns has-text-centered" id="blog-card">
                         <div class="column has-text-left-desktop has-text-left-tablet">
                                 <!--div class="content has-text-grey"-->  
@@ -102,9 +70,9 @@
                                 <p><a href="http://www.bpdb.gov.bd/" style="color:  #5c5cd6 ;">Bangladesh Power Development Board, Dhaka.</a></p>
                         </div>
                     </div> 
-            </div>
+            <!--/div-->
             
-            <div class="event">
+            <!--div class="event"-->
                     <div class="columns has-text-centered" id="blog-card">
                         <div class="column has-text-left-desktop has-text-left-tablet">
                                 <!--div class="content has-text-grey"-->  
@@ -119,7 +87,7 @@
                         </div>
                     </div> 
             </div>
-        </div>
+        
    </section>
 
 
