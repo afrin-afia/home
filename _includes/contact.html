@@ -6,7 +6,7 @@
           /* (A1) RELATIVE POSITION NECESSARY TO PROPERLY POSITION TIMELINE LATER */
           position: relative;
           /* (A2) RESERVE MORE SPACE TO THE LEFT FOR THE TIMELINE */
-          padding: 10px 10px 10px 50px;
+          padding: 10px 10px 10px 30px;
           /* (A3) OPTIONAL WIDTH RESTRICTION */
           /*max-width: 400px;*/
         }
@@ -21,7 +21,7 @@
           position: absolute;
           top: 0;
           bottom: 0;
-          left: 45px;
+          left: 75px;
         }
 
         /* (C) STYLES FOR THE EVENTS */
@@ -31,19 +31,20 @@
           position: relative;
           border-radius: 6px;
           margin-bottom: 10px;
+          max-width: 1400px;
         }
 
         /* (F) ADD A CIRCLE ON THE TIMELINE TO INDICATE AN EVENT */
         div.event::after {
           content: '';
           background: #fff;
-          border: 4px solid #DE421A;
+          border: 4px solid #900C3F;
           width: 16px;
           height: 16px;
           border-radius: 50%;
           position: absolute;
           top: 20%;
-          left: -44px;
+          left: -200px;
         }
     </style>
 </head>
