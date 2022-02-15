@@ -12,14 +12,14 @@ layout: compress
     <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
     <!--link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon"-->
     <style>
-        ol {
+        ul {
               list-style: none;
               counter-reset: steps;
             }
-        ol li {
+        ul li {
               counter-increment: steps;
         }
-        ol li::before {
+        ul li::before {
               content: counter(steps);
               margin-right: 0.5rem;
               background: #ff6f00;
@@ -31,9 +31,7 @@ layout: compress
               place-items: center;
               line-height: 1.2em;
         }
-        ol ol li::before {
-              background: darkorchid;
-        }
+       
     </style>
 </head>    
 
