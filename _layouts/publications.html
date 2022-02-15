@@ -41,11 +41,26 @@ layout: compress
 
 <body>
     {% include navbar.html %}
-    <div>
-         {% include pub-card.html %}
-    </div>
-    <!--Footer begins here-->
-    {% include footer.html %}
+    
+    <section class="hero is-fullheight" id="blog">
+        <div class="hero-body">
+            <div class="container">
+                <nav class="level has-text-centered">
+                <!-- Left side -->
+                <div class="level-left">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">PUBLICATIONS</p>
+                </div>
+            </div>
+        </div>    
+    
+    
+        <div>
+             {% include pub-card.html %}
+        </div>
+    </section>
+        
+    <!--Footer deleted-->
+    
 </body>
 
 </html>
