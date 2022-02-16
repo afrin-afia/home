@@ -46,7 +46,7 @@ author-name: Afia Afrin
 # URL for the Image of the Author
 author-image: /home/assets/images/aa.jpg
 # 60 Words About the Author
-author-about: Hi! I'm Afia. I am a first-year M.Sc. student at the University of Alberta. I earned a Bachelor of Science in Computer Science and Engineering in 2017 from Bangladesh University of Engineering and Technology. <a href="{{site.url}}{{site.baseurl}}/assets/CV_AfiaAfrin.pdf">Here's</a> my detailed resume :)
+author-about: Hi! I'm Afia. I am a first-year M.Sc. student at the University of Alberta. I earned a Bachelor of Science in Computer Science and Engineering in 2017 from Bangladesh University of Engineering and Technology. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/afrin-afia #https://github.com/thedevslot
 
